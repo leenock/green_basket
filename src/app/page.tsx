@@ -1,14 +1,10 @@
-// pages/index.tsx
-import Header from "../components/Header";
+import Navbar from "@/components/layouts/Navbar";
+//import Image from "next/image";
 
-
-const Home = () => {
+export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-gray-100">
-      {/* Navigation Bar */}
-      <Header />
+    <div className="min-h-screen w-full bg-gray-100">
+      <Navbar />
     </div>
   );
-};
-
-export default Home;
+}
